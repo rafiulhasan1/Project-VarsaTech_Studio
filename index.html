@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VersaTech Studio</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <!-- daisyUI + Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+     <style>
+        .poppins-style{
+            font-family: "Poppins", serif;
+        }
+        .logoColor{
+          color: #fc6a21;
+        }
+        .bg-color{
+          background-color: #fc6a21;
+          border: none;
+        }
+        .bg-image{
+          background-image: url(images/slids/background-photo.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+     </style>
+
+</head>
+<body class="poppins-style">
+    <!-- header part start -->
+    <header class="md:w-5/6 mx-auto">
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="flex-1">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolios</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Contacts</a></li>
+              </ul>
+            </div>
+            <a class="md:text-3xl  font-bold">VersaTech <span class="logoColor">Studio</span></a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-xl">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolios</a></li>
+              <li><a>About Us</a></li>
+            </ul>
+          </div>
+          <div>
+            <a class="btn bg-color text-white">Contacts</a>
+          </div>
+        </div>
+      </nav>
+
+      <section>
+        <div class="carousel w-full bg-image">
+          <div id="slide1" class="carousel-item relative w-full">
+            <div class="flex flex-col lg:flex-row md:flex-row px-5 lg:px-28 pt-14 bg-black bg-opacity-50">
+              <!-- Left Content -->
+              <div class="flex-1 space-y-4 lg:space-y-7">
+                <h6 class="font-bold logoColor animate-fadeIn">#TECHNOLOGY & IT SOLUTIONS</h6>
+                <h1 class="font-bold text-4xl lg:text-6xl text-white animate-slideInLeft">Excellent IT Services <br>For Your Success</h1>
+                <p class="text-white animate-fadeInUp">
+                  Unlock your business's full potential with top-notch IT services! From seamless tech support to innovative solutions, the right IT partner ensures your success in today's digital landscape.
+                </p>
+                <div class="animate-bounceIn">
+                  <a class="btn bg-color text-white">Contact US</a>
+                </div>
+                <div class="animate-zoomIn">
+                  <img class=" w-80 ml-64 mt-[-50px]" src="images/slids/img-arrow.png" alt="">
+                </div>
+              </div>
+              <!-- Right Content -->
+              <div class="flex-1">
+                <img class="w-[400px] ml-10 animate-slideInRight" src="images/slids/img-1.png" alt="">
+              </div>
+            </div>
+            <!-- Navigation Buttons -->
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide2" class="btn btn-circle animate-fadeInLeft">❮</a>
+              <a href="#slide2" class="btn btn-circle animate-fadeInRight">❯</a>
+            </div>
+          </div>
+          
+          <div id="slide2" class="carousel-item relative w-full">
+            <div class="flex flex-col lg:flex-row md:flex-row px-5 lg:px-28 pt-14 bg-black bg-opacity-50">
+              <div class="flex-1 space-y-4 lg:space-y-7">
+                <h4 class="font-bold logoColor animate-fadeIn">#IT SOLUTIONS FOR EASY INTEGRATION</h4>
+                <h2 class="font-bold  text-4xl lg:text-6xl text-white animate-slideInLeft">Innovative and <br>Productive Solution</h2>
+                <p class="text-white animate-fadeInUp">Drive growth and efficiency with innovative and productive solutions! Empower your business with cutting-edge strategies that deliver results and streamline success.</p>
+                <div class="animate-bounceIn">
+                  <a class="btn bg-color text-white">Contact US</a>
+                </div>
+                <div>
+                  <img class="w-80 ml-64 mt-[-50px] animate-zoomIn" src="images/slids/img-arrow.png" alt="">
+                </div>
+              </div>
+              <div class="flex-1">
+                <img class="w-[350px] ml-10 animate-slideInRight" src="images/slids/img-2.png" alt="">
+              </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide1" class="btn btn-circle animate-fadeInLeft">❮</a>
+              <a href="#slide1" class="btn btn-circle animate-fadeInRight">❯</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- header part end -->
+
+    <main>
+
+    </main class="md:w-5/6 mx-auto">
+
+    <footer>
+
+    </footer>
+</body>
+</html>
