@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VersaTech Studio</title>
     <link rel="stylesheet" href="/style/style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/af4dd53199.js" crossorigin="anonymous"></script>
+    
     <!-- daisyUI + Tailwind CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -93,7 +96,7 @@
                   Unlock your business's full potential with top-notch IT services! From seamless tech support to innovative solutions, the right IT partner ensures your success in today's digital landscape.
                 </p>
                 <div class="animate-bounceIn">
-                  <a class="btn bg-color text-white">Contact US</a>
+                  <a href="#Contacts1" class="btn bg-color text-white">Contact US</a>
                 </div>
                 <div class="animate-zoomIn">
                   <img class="invisible lg:visible w-80 ml-64 mt-[-50px]" src="images/slids/img-arrow.png" alt="">
@@ -263,7 +266,7 @@
       </div>
 
       <!-- contact us -->
-       <h2 class="font-bold text-5xl text-center mt-10">Contact Us</h2>
+       <h2 id="Contacts1" class="font-bold text-5xl text-center mt-10">Contact Us</h2>
        <div class="flex flex-col lg:flex-row mb-10">
         <div class="flex-1">
           <div class="hero">
@@ -295,16 +298,56 @@
         </div>
         <div class="flex-1 mt-9 lg:mt-0 text-center lg:text-start content-center md:space-y-5">
           <h2 class="font-bold text-3xl md:text-4xl lg:text-5xl">Get In <span class="logoColor">Touch</span></h2>
-          <p class="text-lg font-semibold">Location: House-10,Road-20,Block-C,Mirpur-12,Dhaka-1216</p>
-          <p class="text-lg font-semibold">Call Now: +8801345-678900</p>
-          <p class="text-lg font-semibold">Email: info@versatechstudio.com</p>
+          <p class="text-lg font-semibold"><i class="fa-solid fa-location-dot"></i> Location: House-10,Road-20,Block-C,Mirpur-12,Dhaka-1216</p>
+          <p class="text-lg font-semibold"><i class="fa-solid fa-phone"></i> Call Now: +8801345-678900</p>
+          <p class="text-lg font-semibold"><i class="fa-solid fa-envelope"></i> Email: info@versatechstudio.com</p>
         </div>
        </div>
-
+       
     </main>
 
-    <footer>
-
-    </footer>
+      <footer class="footer bg-neutral-800 text-neutral-content p-10">
+        <aside>
+          <p class="font-semibold">
+            VersaTech Studio Company Ltd.
+            <br />
+            Providing reliable tech since 2019
+          </p>
+          <nav>
+            <h6 class="footer-title">Bangladesh Office</h6>
+            <i class="fa-solid fa-location-dot"></i>
+            <a class="link link-hover">Location: House-10,Road-20,Block-C,Mirpur-12,Dhaka-1216</a><br>
+            <i class="fa-solid fa-phone"></i>
+            <a class="link link-hover">Call Now: +8801345-678900</a><br>
+            <i class="fa-solid fa-envelope"></i>
+            <a class="link link-hover">Email: info@versatechstudio.com</a>
+          </nav>
+          <div>
+            <i class="fa-brands fa-square-facebook fa-lg md:fa-2x"></i>
+            <i class="fa-brands fa-linkedin fa-lg md:fa-2x mx-2"></i>
+            <i class="fa-brands fa-square-instagram fa-lg md:fa-2x"></i>
+          </div>
+        </aside>
+        <div class="flex gap-6">
+            <nav>
+              <h6 class="footer-title">Services</h6>
+              <li><a class="link link-hover">Software Developer</a></li>
+              <li><a class="link link-hover">Data Analyst</a></li>
+              <li><a class="link link-hover">Web Development</a></li>
+              <li><a class="link link-hover">Graphic Design</a></li>
+              <li><a class="link link-hover">Video Editing</a></li>
+              <li><a class="link link-hover">Mobile App Development</a></li>
+            </nav>
+          <nav>
+            <h6 class="footer-title">Company</h6>
+            <li><a class="link link-hover">About us</a></li>
+            <li><a class="link link-hover">Contact</a></li>
+            <li><a class="link link-hover">Portfolios</a></li>
+          </nav>
+        </div>
+      </footer> 
+      <div class="bg-neutral-800 text-neutral-content ">
+        <p class="text-center py-3">Copyright © 2025 VersaTech Studio Inc.</p>
+      </div>
 </body>
 </html>
